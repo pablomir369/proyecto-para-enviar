@@ -1,0 +1,113 @@
+.banner {
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 150px 0;
+  box-shadow: 0 0 7px white;
+  border-radius: 3px;
+  display: flex;
+  position: relative;
+
+}
+
+.banner p {
+  font-size: 30px;
+  color: #f1c4b4;
+  opacity: .7;
+  position: absolute;
+  bottom: -20px;
+  left: 10px;
+
+}
+
+.nombre p {
+  color: red;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  text-shadow: 1px 1px 0px black;
+}
+h2 {
+  color: coral;
+  font-size: 25px;
+}
+
+
+.text1 p{
+  font-size: 15px;
+  color: #f14040;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.titulo1 {
+  color: white;
+}
+
+.card-body {
+  background-color: lightgrey;
+
+}
+
+.card-body p {
+  font-size: 15px;
+  color: blue;
+  bottom: 20px;
+ 
+}
+
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0px 20px;
+  color: rgba(0,0,0,0.5);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-grin-wink {
+  color: coral;
+}
+
+
+@media (max-width: 768px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+
+
+
+
